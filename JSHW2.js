@@ -1,5 +1,5 @@
-let age = ''
-let userAge = prompt("Будь ласка вкажіть ваш вік", age)
+//let age = ''
+let userAge = prompt("Будь ласка вкажіть ваш вік", '')
 if (userAge <0 || userAge >100) {
     alert('введіть число від 0 до 100')};
 let reminder = userAge%10
