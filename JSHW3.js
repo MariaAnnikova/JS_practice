@@ -1,4 +1,4 @@
-let num = '10';
+/* let num = '10';
 let m = '';
 let min = '';
 let gr = '';
@@ -18,4 +18,6 @@ switch (variable) {
         break;
     default:
     console.log('Введіть будьласка число та одиницю виміру: км, год або кг!');
- }
+ } */
+
+      

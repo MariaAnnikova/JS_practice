@@ -1,10 +1,10 @@
 function Triangle (high, sigh) {      //З for
     let cons = sigh;
-    for (i=1; i<high; i++) {console.log (cons);
+    for (i=0; i<high; i++) {console.log (cons);
        cons += sigh; 
     }
 }
-Triangle (10, '*') 
+Triangle (8, '*') 
 
 function triangle (high, sigh) {      //З while
     let cons = '';
