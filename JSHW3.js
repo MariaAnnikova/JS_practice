@@ -2,7 +2,7 @@ let num = '10';
 let m = '';
 let min = '';
 let gr = '';
-let variable = 'год';
+let variable = 'годещгср';
 switch (variable) {
     case 'км':
         m = num * 1000;
