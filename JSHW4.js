@@ -20,6 +20,6 @@ triangle (8, '&')
 let high = 8;        // А от тут без функції
 let sigh = '+';
 let cons = sigh;
-for (i=1; i<high; i++) {console.log (cons);
+for (i=0; i<high; i++) {console.log (cons);
     cons += sigh; 
 } 
