@@ -1,11 +1,12 @@
 function powcount (x, y) {
 let pow = x
 for (let i = 1; i<y; i++) { 
-    console.log(pow*=x);
-     } 
+    pow*=x;
+    } 
+return pow
 }
-powcount (5, 3)
+console.log (powcount (5, 0));
 
 
-//const result = Math.pow (5,3)  // Так набагато швидше і легше :) - знайшла в інтернеті
-//console.log (result)
+const result = Math.pow (5,3)  // Так набагато швидше і легше :) - знайшла в інтернеті
+console.log (result)
