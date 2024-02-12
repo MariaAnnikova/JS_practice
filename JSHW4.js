@@ -1,6 +1,7 @@
+'use strict';
 function Triangle (high, sigh) {      //З for
     let cons = sigh;
-    for (i=0; i<high; i++) {console.log (cons);
+    for (let i=0; i<high; i++) {console.log (cons);
        cons += sigh; 
     }
 }
@@ -17,9 +18,9 @@ function triangle (high, sigh) {      //З while
 triangle (8, '&')
 
 
-let high = 8;        // А от тут без функції
+/*let high = 8;        // А от тут без функції
 let sigh = '+';
 let cons = sigh;
 for (i=0; i<high; i++) {console.log (cons);
     cons += sigh; 
-} 
+} */
