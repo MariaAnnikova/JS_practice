@@ -1,14 +1,15 @@
-const mondayMenu = {
+let mondayMenu = {
     a: "oatmeal (150g)",
     b: "apple (200g)",
     c: "wellnut (25g)",
-    breakfastInfo() {console.log((this)) 
-},
-};
-mondayMenu.drink = "green tea"
-mondayMenu.drink2 = "apple juce"
-mondayMenu.breakfastInfo() 
-
-
-
-
+    getInfo() {
+        for (let key in this) {
+            console.log (key + ": " + this[key]);
+      }
+   }
+}
+   mondayMenu.drink = 'green tea' 
+   mondayMenu.getInfo ()
+       
+ 
+   
