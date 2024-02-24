@@ -23,7 +23,7 @@ const getEmail = function (arr) {
         let email = ar.email;
         if (email.includes("yahoo.com") || email.includes("gmail.com")) {
             validEmail.push(ar.email);
-            message = `Список валідниї email: ${validEmail}`
+            message = `Список валідних email: ${validEmail}`
         };
     };
     return message;
