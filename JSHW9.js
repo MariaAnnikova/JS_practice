@@ -15,19 +15,31 @@ var arr = [
         lastName:"",
         email:"andrii@mail.ru" // Нам такі не підходять
     },
+    {userName:"Hello",
+    lastName:"",
+    email:"Rvjcvs12!!!@gmail.com"
+},
 ];
+
 const getEmail = function (arr) {
     const validEmail = [];
     let message = " ";
+    const re = /([a-z0-9_]{1})(\.[a-zA-Z0-9])?@(gmail.com|yahoo.com)/; 
     for (const ar of arr) {
         let email = ar.email;
-        if (email.includes("yahoo.com") || email.includes("gmail.com")) {
+        if (re.test(email)) {
             validEmail.push(ar.email);
-            message = `Список валідних email: ${validEmail}`
-        };
+            message = `МИ довіряємо тільки користувачам з email: ${validEmail}`
+        }
     };
     return message;
 };
 console.log(getEmail(arr));
+
+
+
+
+
+
 
 
