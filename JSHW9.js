@@ -24,7 +24,7 @@ var arr = [
 const getEmail = function (arr) {
     const validEmail = [];
     let message = " ";
-    const re = /([a-z0-9_]{1})(\.[a-zA-Z0-9])?@(gmail.com|yahoo.com)/; 
+    const re = /^[a-zA-Z0-9]+(\.[a-zA-Z0-9]+)?@(gmail\.com|yahoo\.com)$/; 
     for (const ar of arr) {
         let email = ar.email;
         if (re.test(email)) {
